@@ -1,0 +1,39 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:contentDescription="@string/PosterDetail"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:alpha="0.8"
+            android:background="@color/colorPrimaryDark"
+            android:contentDescription="@string/MovieName" />
+
+        <TextView
+            android:id="@+id/bottom_header_tv"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="5dp"
+            android:fitsSystemWindows="true"
+            android:maxLines="2"
+            android:text="Hello my name is Janhavi Singh"
+
+            android:textColor="#ffffff"
+            android:textSize="10sp" />
+
+
+    </FrameLayout>
+</layout>

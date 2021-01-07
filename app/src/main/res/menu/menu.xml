@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/most_popular"
+        android:title="@string/MostPopular"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/highest_rating"
+        android:title="@string/HighestRated"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/favourite"
+        android:title="@string/favourite"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/clear_button"
+        android:icon="@drawable/clear_button"
+        android:title="Clear Button"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/refresh_button"
+        android:icon="@drawable/refresh"
+        android:title="Favourite Button"
+        app:showAsAction="always" />
+
+</menu>
